@@ -70,7 +70,7 @@ class PersistentDrawer extends React.Component {
   lLogin = (event) => {
     this.props.login({
       url: "https://ecomm-serve.herokuapp.com/o/authorize/",
-      client: "0wxLaqwhDffkzai12bZq3aF0A47z9fZmOe3mAZU3",
+      client: "bHgXkKAUO4TdO24fzvWJDxlHeG1MH6cVyUoJPdLp",
       redirect: "https://ecomm2-client.herokuapp.com",
       scope: "read",
       width: 400, // Width (in pixels) of login popup window. Optional, default: 400
