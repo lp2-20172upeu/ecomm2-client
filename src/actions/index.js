@@ -2,7 +2,7 @@ import axios from 'axios'
 //    baseURL: "https://eventos-serve.herokuapp.com"
 
 const client = axios.create({
-    baseURL: "http://localhost:8003",
+    baseURL: "https://ecomm-serve.herokuapp.com",
     
 })
 
